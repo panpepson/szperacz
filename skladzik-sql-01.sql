@@ -1,0 +1,11 @@
+
+CREATE TABLE dane (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nazwa VARCHAR(200),
+szerokosc VARCHAR(60),
+dlugosc VARCHAR(60),
+ulica VARCHAR(60),
+dom VARCHAR(60),
+lokal VARCHAR(30),
+miasto VARCHAR(30));
+
+
