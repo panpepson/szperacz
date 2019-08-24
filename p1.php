@@ -1,7 +1,5 @@
 <?php
 
-//$curl = curl_init('https://api-v3.mojepanstwo.pl/dane/krs_podmioty.json?conditions%5Bkrs_podmioty.gmina_id%5D=2315&limit=125&page=1&callbacks=1&maxLimit=125&paramType=querystring&aggs%5Btyp_id%5D%5Bterms%5D%5Bfield%5D=krs_podmioty.plec&aggs%5Btyp_id%5D%5Bterms%5D%5Binclude%5D%5Bpattern%5D=%28K%7CM%29&aggs%5Btyp_id%5D%5Baggs%5D%5Blabel%5D%5Bterms%5D%5Bfield%5D=krs_podmioty.plec&_type=objects');
-//$curl = curl_init('https://api-v3.mojepanstwo.pl/dane/krs_podmioty.json?conditions%5Bkrs_podmioty.gmina_id%5D=2315&page=1&callbacks=1&paramType=querystring&aggs%5Btyp_id%5D%5Bterms%5D%5Bfield%5D=krs_podmioty.plec&aggs%5Btyp_id%5D%5Bterms%5D%5Binclude%5D%5Bpattern%5D=%28K%7CM%29&aggs%5Btyp_id%5D%5Baggs%5D%5Blabel%5D%5Bterms%5D%5Bfield%5D=krs_podmioty.plec&_type=objects');
 $curl = curl_init('https://api-v3.mojepanstwo.pl/dane/krs_podmioty.json?conditions%5Bkrs_podmioty.gmina_id%5D=2315&page=1&_type=objects');
 
 curl_setopt_array($curl, array(
