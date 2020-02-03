@@ -2,4 +2,6 @@ https://www.gov.pl/web/kas/api-wykazu-podatnikow-vat
 
 https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka
 
-https://wl-api.mf.gov.pl/api/search/nip/5651409974?date=2020-01-07&_=1580723240505
+https://wl-api.mf.gov.pl/api/search/nip/5651409974?date=2020-01-07&_=1580723240505,
+
+https://jpk.info.pl/biala-lista-vat/sprawdz-status-podatnika-vat/raport/
